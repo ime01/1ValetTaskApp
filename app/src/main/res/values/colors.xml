@@ -8,4 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="grey">#808080</color>
+    <color name="one_valet_green">#7BCF1A</color>
+    <color name="one_valet_green_light">#72AC30</color>
 </resources>

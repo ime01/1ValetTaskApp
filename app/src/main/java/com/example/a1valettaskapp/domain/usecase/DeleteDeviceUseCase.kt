@@ -18,7 +18,7 @@ class DeleteDeviceUseCase  @Inject constructor (private val repository: DeviceRe
 
         }catch (e:Exception){
 
-          Log.e(DELETEUSECASERROR, e.localizedMessage)
+          Log.e(DELETEUSECASERROR, e?.localizedMessage)
         }
 
     }

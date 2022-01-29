@@ -6,11 +6,9 @@ import androidx.room.PrimaryKey
 import com.example.a1valettaskapp.common.Constants.TABLENAME
 import kotlinx.parcelize.Parcelize
 
-
-@Parcelize
 @Entity(tableName = TABLENAME)
+@Parcelize
 data class Device(
-
     @PrimaryKey(autoGenerate = true)
     val id: Int,
     val size: String,

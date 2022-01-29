@@ -7,6 +7,7 @@ import android.view.View
 import android.widget.LinearLayout.VERTICAL
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
+import androidx.navigation.Navigation
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.a1valettaskapp.R
@@ -48,8 +49,6 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         }
 
 
-
-
     }
 
     fun loadData(){
@@ -81,8 +80,10 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
     }
 
-    private fun transitionToDetailView(it: Device) {
-
+    private fun transitionToDetailView(device: Device) {
+        val action = HomeFragmentDirections.actionHomeFragmentToDetailFragment()
+        action.device = device
+        Navigation.findNavController(requireView()).navigate(action)
     }
 
 

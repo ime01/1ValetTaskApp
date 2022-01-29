@@ -40,7 +40,7 @@ class DeviceAdapter  (val listener: urlListener)  :ListAdapter<Device, DeviceAda
 
                deviceIcon.load(imageLink!!){
                     error(R.drawable.ic_baseline_not_interested_24)
-                    placeholder(R.drawable.ic_baseline_not_interested_24)
+                    placeholder(R.drawable.ic_baseline_phone_android_24)
                     crossfade(true)
                     crossfade(1000)
                 }
