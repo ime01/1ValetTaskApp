@@ -2,4 +2,6 @@
     <string name="app_name">1ValetTaskApp</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_text">Displaying a list of smartphone devices via Room database while simulating a network Get Request for my task app at 1Valet, Hoping to join this amazing team pretty soon</string>
+    <string name="search_device">Search for a device</string>
 </resources>
