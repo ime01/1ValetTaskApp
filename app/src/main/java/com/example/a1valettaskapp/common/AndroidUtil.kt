@@ -96,5 +96,10 @@ fun getConnectionType(context: Context): Boolean {
     }
     return result
 
+
+
+
+
+
 }
 

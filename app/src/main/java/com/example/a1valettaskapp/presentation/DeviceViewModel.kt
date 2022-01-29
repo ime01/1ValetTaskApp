@@ -24,6 +24,7 @@ class DeviceViewModel @Inject constructor(private val deviceRepository: DeviceRe
     //Using a flow to expose data to the views in the fragmment
 
     private val _devicesFromSimulatedNetworkCall = deviceRepository.getDevices()
+        .distinctUntilChanged()
 
     val devicesFromSimulatedNetworkCall: Flow<List<Device>>
         get() = _devicesFromSimulatedNetworkCall
@@ -36,7 +37,6 @@ class DeviceViewModel @Inject constructor(private val deviceRepository: DeviceRe
            _devicesFromSimulatedNetworkCall. =  deviceRepository.getDevices()
         }
     }*/
-
 
 
     fun insertListOfDevices(devices:List<Device> ){

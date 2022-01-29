@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/search_oraword"
+        android:id="@+id/search_device"
         android:icon="@drawable/ic_baseline_search_24"
         android:title="@string/search_device"
         app:showAsAction="always|collapseActionView"
