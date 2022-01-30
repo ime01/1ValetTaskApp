@@ -51,7 +51,9 @@ SAFEARGS
 
 pictures of the app screens below
 
+![Screenshot_20220130-164804](https://user-images.githubusercontent.com/44091450/151706981-6dcaeaf6-05b5-41b9-9ce1-d32952b9100d.png)
 ![Screenshot_20220130-155605](https://user-images.githubusercontent.com/44091450/151706097-183e4f33-acb1-4ce8-9906-07a2b4edf4b9.png)
+![Screenshot_20220130-164727](https://user-images.githubusercontent.com/44091450/151706976-a3b94ea3-3ee3-4cee-a159-ad5f1e5f6154.png)
 ![Screenshot_20220130-155631](https://user-images.githubusercontent.com/44091450/151706103-fb53def9-28ed-4072-a0d9-1762ca45fad3.png)
 ![Screenshot_20220130-155651](https://user-images.githubusercontent.com/44091450/151706104-842c642a-9b92-4abd-a3bd-acac154e0c12.png)
 ![Screenshot_20220130-155950](https://user-images.githubusercontent.com/44091450/151706116-2a5b5d5c-965d-4363-8409-adf724173627.png)
