@@ -22,8 +22,8 @@ class DefaultDataSource {
                 2000,
                 "USD",
                 false,
-                R.drawable.samsung,
-                "Galaxy A10",
+                R.drawable.samsung_galaxy_a72_4g,
+                "Galaxy A72",
                 "Available"
             ),)
 
@@ -33,8 +33,8 @@ class DefaultDataSource {
                 1500,
                 "USD",
                 false,
-                R.drawable.samsunggalaxya5,
-                "Galaxy A5",
+                R.drawable.samsung_galaxy_f12,
+                "Galaxy f12",
                 "Available"
             ),)
 
@@ -44,8 +44,8 @@ class DefaultDataSource {
                 1950,
                 "USD",
                 false,
-                R.drawable.samsunga15,
-                "Galaxy A15",
+                R.drawable.samsung_galaxy_note20_r,
+                "Galaxy Note20",
                 "Available"
             ),)
 
@@ -55,8 +55,8 @@ class DefaultDataSource {
                 5000,
                 "USD",
                 false,
-                R.drawable.samsunga19,
-                "Galaxy A19",
+                R.drawable.samsung_galaxy_s20_5g,
+                "Galaxy S20",
                 "Available"
             ),)
 
@@ -66,8 +66,8 @@ class DefaultDataSource {
                 7000,
                 "USD",
                 false,
-                R.drawable.samsunga52,
-                "Galaxy A52",
+                R.drawable.samsung_galaxy_s21_ultra_5g,
+                "Galaxy S21",
                 "Available"
             ),)
 
@@ -77,8 +77,8 @@ class DefaultDataSource {
                 3000,
                 "USD",
                 false,
-                R.drawable.samsunga32,
-                "Galaxy A32",
+                R.drawable.samsung_galaxy_z_flip3_5g,
+                "Galaxy Zflip",
                 "Available"
             ),)
 
@@ -88,8 +88,8 @@ class DefaultDataSource {
                 3500,
                 "USD",
                 false,
-                R.drawable.motorlla,
-                "Galaxy A32",
+                R.drawable.samsung,
+                "Galaxy A9",
                 "Available"
             ),)
 
@@ -121,8 +121,8 @@ class DefaultDataSource {
                 13000,
                 "USD",
                 false,
-                R.drawable.samsunga15,
-                "Iphone",
+                R.drawable.samsunga32,
+                "Galaxy A32",
                 "Available"
             ),)
 
@@ -134,8 +134,8 @@ class DefaultDataSource {
                 6000,
                 "USD",
                 false,
-                R.drawable.samsunga19,
-                "Google pixel 6a",
+                R.drawable.samsunga52,
+                "Galaxy A52",
                 "Available"
             ),)
 
@@ -145,8 +145,8 @@ class DefaultDataSource {
                 14500,
                 "USD",
                 false,
-                R.drawable.samsunga52,
-                "Samsung A4",
+                R.drawable.samsunggalaxya5,
+                "Galaxy A5",
                 "Available"
             ),)
 
@@ -167,8 +167,8 @@ class DefaultDataSource {
                 16000,
                 "USD",
                 false,
-                R.drawable.samsunggalaxya5,
-                "Google pixel 3a",
+                R.drawable.samsunga19,
+                "Galaxy A19",
                 "Available"
             ),)
 

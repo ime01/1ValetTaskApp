@@ -42,11 +42,13 @@ class DetailFragment : Fragment(R.layout.fragment_detail) {
 
             }
 
-            deviceIcon.load(device?.imageUrl!!){
-                error(R.drawable.ic_baseline_not_interested_24)
-                placeholder(R.drawable.ic_baseline_phone_android_24)
-                crossfade(true)
-                crossfade(1000)
+            device?.imageUrl?.let {
+                deviceIcon.load(it){
+                    error(R.drawable.ic_baseline_not_interested_24)
+                    placeholder(R.drawable.ic_baseline_phone_android_24)
+                    crossfade(true)
+                    crossfade(1000)
+                }
             }
 
         }
