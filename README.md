@@ -8,7 +8,7 @@ an app, created for my job test exercise at 1VALET, created with the design indi
 
 A Device management android Application, that displays a list of smartphone devices, with data mocked to be coming from a network call, implemented with ROOM DATABASE
 
-I have added some additional features not directly on the task, like day and night mode, swipe to delete and restore a device, app also setup to easily implement add and update device in the future. 
+I have added some additional features not directly on the task, like day and night mode, facebook shimmer effect while loading data, swipe to delete and restore a device, app also setup to easily implement add and update device in the future. 
 
 fully built with Kotlin
 
