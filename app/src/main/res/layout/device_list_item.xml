@@ -14,17 +14,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <ImageView
+        <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/device_icon"
             android:layout_width="@dimen/phone_dimen"
             android:layout_height="@dimen/phone_dimen"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:contentDescription="@string/image"
+            app:shapeAppearanceOverlay="@style/RoundedSquare"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/samsung" />
 
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
             android:id="@+id/device_name"
             style="@style/SegmentTitle"
             android:layout_width="0dp"
@@ -37,7 +39,7 @@
             app:layout_constraintStart_toEndOf="@+id/device_icon"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
             android:id="@+id/device_avalabilty"
             style="@style/AvailabilityTitle"
             android:layout_width="wrap_content"
@@ -51,11 +53,13 @@
             app:layout_constraintStart_toEndOf="@+id/device_icon"
             app:layout_constraintTop_toBottomOf="@+id/device_name" />
 
-        <ImageView
+        <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/imageView"
             android:layout_width="@dimen/info_dimen"
             android:layout_height="@dimen/info_dimen"
             android:layout_marginEnd="24dp"
+            android:contentDescription="@string/more_details"
+            app:shapeAppearanceOverlay="@style/Circular"
             app:layout_constraintBottom_toTopOf="@+id/device_avalabilty"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/device_name"

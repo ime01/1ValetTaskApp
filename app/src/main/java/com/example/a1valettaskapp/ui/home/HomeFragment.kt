@@ -71,7 +71,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         lifecycleScope.launchWhenStarted {
 
             //Simulating a network call with a 2 seconds delay to get the data
-            delay(2000)
+            //delay(2000)
             deviceviewModel.devicesFromSimulatedNetworkCall.collect {
                 loadRecyclerView(it)
             }

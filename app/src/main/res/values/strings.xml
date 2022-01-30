@@ -22,4 +22,9 @@
 
     <string name="night_mode">Night Mode</string>
     <string name="night_mode_on">Night Mode on</string>
+    <string name="home">Home</string>
+    <string name="my_devices">My Devices</string>
+    <string name="settings">Settings</string>
+    <string name="image">device image</string>
+    <string name="more_details">More details about this device</string>
 </resources>

@@ -3,4 +3,5 @@
     <dimen name="img_dimen">200dp</dimen>
     <dimen name="info_dimen">30dp</dimen>
     <dimen name="phone_dimen">100dp</dimen>
+    <dimen name="detail_image">250dp</dimen>
 </resources>

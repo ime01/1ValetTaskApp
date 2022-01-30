@@ -5,17 +5,17 @@
         android:id="@+id/navgroup_menu"
         android:checkableBehavior="single">
     <item android:id="@+id/homeFragment"
-        android:title="Home"
+        android:title="@string/home"
         android:icon="@drawable/ic_baseline_home_24"/>
 
 
     <item android:id="@+id/detailFragment"
-        android:title="My Devices"
+        android:title="@string/my_devices"
         android:icon="@drawable/ic_baseline_phone_android_24"/>
 
 
         <item android:id="@+id/settingsFragment"
-            android:title="Settings"
+            android:title="@string/settings"
             android:icon="@drawable/ic_baseline_settings_24"/>
 
     </group>
