@@ -5,6 +5,7 @@
 1VALET Task App
 an app, created for my job test exercise at 1VALET, created with the design indicated on the task document
 
+
 A Device management android Application, that displays a list of smartphone devices, with data mocked to be coming from a network call, implemented with ROOM DATABASE 
 
 fully built with Kotlin
@@ -14,6 +15,10 @@ offline data implemented with ROOM DATABASE
 Dependency Injection with DAGGER HILT
 
 Clean architexture with MVVM and repository pattern
+
+SplashScreen implemented without an extra fragment, using 1VALET PICTURE
+
+APP THEMED AFTER 1VALET LIGHT GREEN OFFICE LOOK FOR DAY MODE AND BLACK FOR NIGHT MODE
 
 SINGLE ACTIVITY PATTERN
 
