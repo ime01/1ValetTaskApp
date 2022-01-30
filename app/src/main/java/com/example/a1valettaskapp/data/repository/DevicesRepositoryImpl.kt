@@ -1,5 +1,6 @@
 package com.example.a1valettaskapp.data.repository
 
+import androidx.lifecycle.LiveData
 import com.example.a1valettaskapp.common.Resource
 import com.example.a1valettaskapp.data.model.Device
 import com.example.a1valettaskapp.data.roomdb.DeviceDao
@@ -32,6 +33,14 @@ class DevicesRepositoryImpl (val deviceDao: DeviceDao) : DeviceRepository {
 
     override suspend fun deleteDevice(device: Device) {
        deviceDao.delete(device)
+    }
+
+    override fun observeAllDrinks(): LiveData<List<Device>> {
+        return deviceDao.getDevicesLiveDataType()
+    }
+
+    override fun deleteAllDevices() {
+        deviceDao.deleteAll()
     }
 
 
