@@ -30,14 +30,6 @@ class DeviceViewModel @Inject constructor(private val deviceRepository: DeviceRe
         get() = _devicesFromSimulatedNetworkCall
 
 
-   /* fun getDevices() : Flow<List<Device>>{
-
-        viewModelScope.launch{
-            delay(2000)
-           _devicesFromSimulatedNetworkCall. =  deviceRepository.getDevices()
-        }
-    }*/
-
 
     fun insertListOfDevices(devices:List<Device> ){
 

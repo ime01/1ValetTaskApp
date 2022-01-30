@@ -23,8 +23,13 @@ interface DeviceDao {
 
     @Query("SELECT * FROM  device_table")
     fun getDevices(): Flow<List<Device>>
-    //fun getDevices(): LiveData<List<HouseWordsModel>>
+
+    @Query("SELECT * FROM  device_table")
+    fun getDevicesLiveDataType(): LiveData<List<Device>>
 
     @Delete
     suspend fun delete (device: Device)
+
+    @Query("DELETE FROM device_table")
+    fun deleteAll()
 }
